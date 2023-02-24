@@ -1,0 +1,61 @@
+.nav-wrapper{
+    background-color: rgb(103, 103, 254) !important;
+}
+
+.brand-logo{
+    padding-left: 80px !important;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.container-center{
+    width: 600px;
+    flex-direction: column;
+    display: flex;
+}
+
+.row-center{
+    width: 100%;
+    margin: 0px !important;
+}
+
+.row-left{
+    margin: 0px;
+    display: flex;
+    justify-content: left !important;
+    text-align: left;
+}
+
+.row-left .col{
+    padding: 0px;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after{
+    background-color: rgb(103, 103, 254) !important;
+    border: 2px solid rgb(103, 103, 254);
+}
+
+.btn{
+    width: 100%;
+    background-color: rgb(103, 103, 254) !important;
+}
+
+.row-button{
+    padding: 0px !important;
+    width: 100%;
+}
+
+.bottom{
+    padding-top: 13px;
+    display: flex !important;
+    justify-content: right !important;
+    width: 100%;
+}
+
+.sn{
+    font-size: 25px;
+    padding-top: 40px;
+}
